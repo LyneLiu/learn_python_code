@@ -39,7 +39,8 @@ what = add(age, substract(height, multiply(weight, divide(iq, 2))))
 print "That becomes:", what, "\nCan you do it by hand?"
 
 what_again = substract(add(age, divide(weight, height)), iq)
-print "That what_again becomes:", what_again, "\nCan you do it by hand?"
+print "That what_again becomes:", 
+print what_again, "\nCan you do it by hand?"
 
 # def add_string(a,b):
 # 	return a + b

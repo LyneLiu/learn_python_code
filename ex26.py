@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-from ex25 import *
+# 导入 ex25
+# 在代码编写过程中变量拼写错误会经常发生
+# 学会调程序中的存在的bug
+# be patient！
+import ex25 
 
 def break_words(stuff):
     """This function will break up words for us."""
@@ -66,7 +70,7 @@ def secret_formula(started):
 
 
 start_point = 10000
-beans, jars, crates == secret_formula(start-point)
+beans, jars, crates = secret_formula(start_point)
 
 print "With a starting point of: %d" % start_point
 print "We'd have %d jeans, %d jars, and %d crates." % (beans, jars, crates)
@@ -74,7 +78,7 @@ print "We'd have %d jeans, %d jars, and %d crates." % (beans, jars, crates)
 start_point = start_point / 10
 
 print "We can also do that this way:"
-print "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_pont)
+print "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_point)
 
 
 sentence = "All good\tthings come to those who weight."
@@ -91,4 +95,4 @@ print sorted_words
 
 print_first_and_last(sentence)
 
-print_first_and_last_sorted(senence)
+print_first_and_last_sorted(sentence)
